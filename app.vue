@@ -1,60 +1,3 @@
-<!-- <template>
-  <div class="bg-[#0d1227] h-full w-full">
-    <div class="flex flex-col justify-center items-center">
-      <div class="text-neutral-300 text-2xl w-96 h-40 rounded-3xl mt-12 mb-8
-        bg-[linear-gradient(0deg,_rgba(15,40,71,1)_0%,_rgba(19,25,59,1)_25%,_rgba(13,18,39,1)_100%)]
-        flex justify-center">
-        <p>@Hyphen</p>
-      </div>
-    </div>
-
-    <div class="flex flex-col items-center mt-14">
-      <h1 class="text-neutral-200 text-3xl font-bold">Social Links</h1>
-
-      <div class="flex flex-col items-center lg:w-1/3">
-        <a href="">
-          <div class="flex flex-row items-center bg-[#232738] ml-2 mr-2 p-6 rounded-xl w-200 text-neutral-200 mt-4 mb-4">
-            <img src="./assets/icons/fb.png" class="w-14 ml-4 mr-4">
-            <p class="text-xl ml-4">Facebook</p>
-          </div>
-        </a>
-
-        <a href="">
-          <div class="flex flex-row items-center bg-[#232738] ml-2 mr-2 p-6 rounded-xl w-200 text-neutral-200 mt-4 mb-4">
-            <img src="./assets/icons/ig.png" class="w-14 ml-4 mr-4">
-            <p class="text-xl ml-4">Instagram</p>
-          </div>
-        </a>
-      </div>
-    </div>
-
-    <div class="flex flex-col items-center mt-14">
-      <h1 class="text-neutral-200 text-3xl font-bold">Shops</h1>
-
-      <div class="flex flex-col items-center w-1/3">
-        <a href="">
-          <div class="flex flex-row items-center bg-[#232738] ml-2 mr-2 p-6 rounded-xl w-200 text-neutral-200 mt-4 mb-4">
-            <img src="./assets/icons/etsy.png" class="w-14 ml-4 mr-4">
-            <p class="text-xl ml-4">Etsy</p>
-          </div>
-        </a>
-
-        <a href="https://line.me/S/shop/sticker/author/5359919">
-          <div class="rounded-xl p-0.5 mt-4 mb-4 bg-[#3b6248]">
-            <div class="flex flex-row items-center bg-[#314a3b] p-6 rounded-xl w-200 text-neutral-200 hover:bg-[#273a2f]">
-              <img src="./assets/icons/line.png" class="w-14 ml-4 mr-4">
-              <p class="text-xl ml-4">Line Stickers</p>
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-
-  </div>
-</template> -->
-
-
-
 <template>
   <div class="bg-[#0d1227] min-h-screen w-full font-mono">
     <nav class="sticky top-0 z-50 bg-[#0d1227] w-full px-4 py-4 flex items-center opacity-60">
@@ -122,6 +65,7 @@
       <br>
     </div>
   </div>
+  <NuxtPage />
 </template>
 
 <script setup>
