@@ -8,7 +8,7 @@
 
     <!-- Header -->
     <div class="flex flex-col justify-center items-center">
-      <img src="./assets/icons/profile.png" class="w-36 h-32 rounded-full mt-10">
+      <img src="./public/icons/profile.png" loading="lazy" class="w-36 h-32 rounded-full mt-10" />
       <div
         class="text-neutral-300 text-2xl w-[90%] max-w-md h-40 rounded-3xl mt-1 mb-8
         bg-[linear-gradient(0deg,_rgba(15,40,71,1)_0%,_rgba(19,25,59,1)_25%,_rgba(13,18,39,1)_100%)]
@@ -24,14 +24,14 @@
       <div class="flex flex-col items-center w-full max-w-xl space-y-4">
         <a href="https://www.facebook.com/peerasit.earth" target="_blank" class="w-full">
           <div class="flex flex-row items-center bg-[#232738] p-4 sm:p-6 rounded-xl text-neutral-200 w-full hover:bg-[#2d3146] transition">
-            <img src="./assets/icons/fb.png" class="w-12 sm:w-14 ml-2 sm:ml-4 mr-4">
+            <img src="./assets/icons/fb.png" loading="lazy" class="w-12 sm:w-14 ml-2 sm:ml-4 mr-4">
             <p class="text-lg sm:text-xl">Facebook</p>
           </div>
         </a>
 
         <a href="https://www.instagram.com/ep.e_rth/" target="_blank" class="w-full">
           <div class="flex flex-row items-center bg-[#232738] p-4 sm:p-6 rounded-xl text-neutral-200 w-full hover:bg-[#2d3146] transition">
-            <img src="./assets/icons/ig.png" class="w-12 sm:w-14 ml-2 sm:ml-4 mr-4">
+            <img src="./assets/icons/ig.png" loading="lazy" class="w-12 sm:w-14 ml-2 sm:ml-4 mr-4">
             <p class="text-lg sm:text-xl">Instagram</p>
           </div>
         </a>

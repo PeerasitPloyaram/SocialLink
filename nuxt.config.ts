@@ -8,15 +8,18 @@ export default defineNuxtConfig({
       lang: 'en',
     },
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/public/favicon.ico' },
     ]
   }
   },
+
   compatibilityDate: '2025-05-15',
   devtools: { enabled: false },
   css: ['~/assets/css/main.css'],
+
   vite: {
     plugins: [tailwindcss()]
   },
-  
+
+  modules: ['@nuxt/image'],
 })
